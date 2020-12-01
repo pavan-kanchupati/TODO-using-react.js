@@ -1,0 +1,41 @@
+.displaystyle {
+  /*  color: rgb(228, 2, 70);*/
+  color: #60662e;
+  width: 300px;
+  margin: 20px auto;
+  height: 40px;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.displaystyle p {
+  padding: 10px;
+  position: relative;
+  transition: ease-in-out;
+  font-weight: 500;
+}
+
+.displaystyle span {
+  position: absolute;
+  right: 10px;
+}
+.trashicon {
+  margin: 0 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.displaystyle p input {
+  background-color: transparent;
+  border: 0;
+  color: #60662e;
+  font-size: 18px;
+}
+
+.displaystyle p input:focus {
+  outline: none;
+}
+.displaystyle p span {
+  position: absolute;
+  right: 10px;
+}
